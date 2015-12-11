@@ -74,24 +74,6 @@ public class MainActivity extends AppCompatActivity implements Fragment1.Fragmen
 
     public void testDataManager()
     {
-//        String badHardcodedBookingId = "11111"; //HINT: it would be nice if we could read this input from a text field instead of hardcoding it
-//        mBaseDataManager.getBookingDetails(badHardcodedBookingId, Booking.BookingType.BOOKING, new DataManager.Callback<Booking>()
-//        {
-//            @Override
-//            public void onSuccess(Booking booking)
-//            {
-//                System.out.println("We got a booking!");
-//                TextView textView = (TextView) findViewById(R.id.bookingDataText);
-//                textView.setText(booking.getAddress().getStreetAddress());
-//            }
-//
-//            @Override
-//            public void onError(DataManager.DataManagerError error)
-//            {
-//                System.out.println("We failed! Something went wrong : " + error);
-//            }
-//        });
-
         mBaseDataManager.getRadioPlaylist(new DataManager.Callback<PlaylistWrapper>()
         {
             @Override
