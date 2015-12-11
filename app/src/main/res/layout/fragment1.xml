@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/fragment1TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This is fragment 1" />
+
+    <Button
+        android:id="@+id/fragment1Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Fragment 1 Button" />
+
+    <Button
+        android:id="@+id/requestBookingDataButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Request Booking Data Button" />
+
+    <TextView
+        android:id="@+id/bookingDataText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Booking data will go here"
+        />
+</LinearLayout>
